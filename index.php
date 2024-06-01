@@ -41,7 +41,7 @@
                                 <ul>
                                     <li><a href="index.html">Accueil</a></li>
                                     <li><a href="index.html">Prestation</a></li>
-                                    <li><a href="index.html">L'agence</a></li>
+                                    <li><a href="a-propos.php">L'agence</a></li>
                                     <li><a href="index.html">Galerie</a></li>
                                     <li><a href="index.html">Contact</a></li>
                                     <li><a href="index.html">Blog</a></li>
