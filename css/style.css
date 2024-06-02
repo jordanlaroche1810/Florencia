@@ -1,16 +1,12 @@
 @charset "UTF-8";
-/*
 
-Polo - Multipurpose HTML5 Template
-Version: 5.9.9
-Website: https://inspirothemes.com/themes/polo
-License: https://inspirothemes.com/themes/polo/license.html
-Inspiro Themes (https://inspirothemes.com)
-Author: INSPIRO - Ardian Berisha
-Copyright 2021
+@import url('https://fonts.cdnfonts.com/css/geo-sans-light');
 
-*/
-@import url("https://fonts.googleapis.com/css?family=Poppins:100,200,400,500,600,700,800|Nunito:300,400,600,700,800");
+@font-face {
+  font-family: 'BrittanyExample';
+  src: url('../webfonts/BrittanyExample-Regular.ttf');
+}
+
 section { padding: 6rem 0; position: relative; width: 100%; z-index: 1; background-color: #fff; }
 
 section .page-content { padding: 0; }
@@ -73,7 +69,7 @@ section.dark, .dark section { background-color: #1e2022; color: #2e2e2e; }
 
 #page-title .page-title { text-align: center; padding: 0; }
 
-#page-title .page-title > h1 { font-family: "Poppins", sans-serif; font-size: 2.5rem; line-height: 1.2; font-weight: 400; margin-bottom: 1rem; }
+#page-title .page-title > h1 { font-family: "BrittanyExample", sans-serif; font-size: 2.5rem; line-height: 1.2; font-weight: 400; margin-bottom: 1rem; }
 
 #page-title .page-title > span { font-weight: 400; font-size: 14px; }
 
@@ -572,7 +568,7 @@ Main Menu
 
 #mainMenu nav > ul > li { float: left; border: 0; -webkit-transition: all .3s ease; transition: all .3s ease; margin-left: 6px; position: relative; }
 
-#mainMenu nav > ul > li > a { position: relative; font-family: "Poppins", sans-serif; padding: 10px 12px; text-transform: uppercase; font-size: 12px; font-weight: 600; letter-spacing: 0.6px; color: #000000; border-radius: 0; border-width: 0; border-style: solid; border-color: transparent; -webkit-transition: all .3s ease; transition: all .3s ease; line-height: normal; }
+#mainMenu nav > ul > li > a { position: relative; font-family: "GeosansLight", sans-serif; padding: 10px 12px; text-transform: uppercase; font-size: 12px; font-weight: 600; letter-spacing: 0.6px; color: #000000; border-radius: 0; border-width: 0; border-style: solid; border-color: transparent; -webkit-transition: all .3s ease; transition: all .3s ease; line-height: normal; }
 
 #mainMenu nav > ul > li > a > i { margin-left: 2px; margin-right: 6px; min-width: 14px; font-size: 14px; }
 
@@ -586,7 +582,7 @@ Main Menu
 
 #mainMenu nav > ul > li .dropdown-menu { background-position: right bottom; background-repeat: no-repeat; min-width: 230px; top: auto; background-color: #fff; border: 0; color: #000000; border-style: solid; border-color: #fbfbfb; border-width: 1px !important; left: auto; margin: 0; margin-top: -6px; border-radius: 4px; box-shadow: 0 33px 32px rgba(0, 0, 0, 0.1); padding: 10px; display: none; position: absolute; }
 
-#mainMenu nav > ul > li .dropdown-menu > li > a, #mainMenu nav > ul > li .dropdown-menu > li > span, #mainMenu nav > ul > li .dropdown-menu > li [class*="col-"] > ul > li > a { font-size: 12px; line-height: 14px; font-weight: 500; font-style: normal; color: #444; font-family: "Poppins", sans-serif; padding: 12px 20px 12px 18px; display: block; -webkit-transition: .3s ease; transition: .3s ease; }
+#mainMenu nav > ul > li .dropdown-menu > li > a, #mainMenu nav > ul > li .dropdown-menu > li > span, #mainMenu nav > ul > li .dropdown-menu > li [class*="col-"] > ul > li > a { font-size: 12px; line-height: 14px; font-weight: 500; font-style: normal; color: #444; font-family: "GeosansLight", sans-serif; padding: 12px 20px 12px 18px; display: block; -webkit-transition: .3s ease; transition: .3s ease; }
 
 #mainMenu nav > ul > li .dropdown-menu > li > a:focus, #mainMenu nav > ul > li .dropdown-menu > li > a:hover, #mainMenu nav > ul > li .dropdown-menu > li > a:active, #mainMenu nav > ul > li .dropdown-menu > li > span:focus, #mainMenu nav > ul > li .dropdown-menu > li > span:hover, #mainMenu nav > ul > li .dropdown-menu > li > span:active, #mainMenu nav > ul > li .dropdown-menu > li [class*="col-"] > ul > li > a:focus, #mainMenu nav > ul > li .dropdown-menu > li [class*="col-"] > ul > li > a:hover, #mainMenu nav > ul > li .dropdown-menu > li [class*="col-"] > ul > li > a:active { background-color: transparent; color: #2250fc; cursor: pointer; }
 
@@ -602,7 +598,7 @@ Main Menu
 
 #mainMenu nav > ul > li.mega-menu-item .mega-menu-content { padding: 20px; }
 
-#mainMenu nav > ul > li.mega-menu-item .mega-menu-content .mega-menu-title { font-family: "Poppins", sans-serif; color: #000000; font-size: 13px; line-height: 14px; font-weight: 600; text-transform: uppercase; padding-bottom: 12px; }
+#mainMenu nav > ul > li.mega-menu-item .mega-menu-content .mega-menu-title { font-family: "GeosansLight", sans-serif; color: #000000; font-size: 13px; line-height: 14px; font-weight: 600; text-transform: uppercase; padding-bottom: 12px; }
 
 #mainMenu nav > ul > li.mega-menu-item .mega-menu-content li ~ .mega-menu-title { margin-top: 12px; }
 
@@ -951,7 +947,7 @@ Main Menu: Responsive
 
 .header-extras > ul > li .p-dropdown a > span { position: absolute; top: -8px; font-size: 9px; opacity: 1; right: -2px; }
 
-.header-extras > ul > li > a:not(.btn), .header-extras > ul > li .topbar-dropdown > .title { font-family: "Poppins", sans-serif; font-size: 12px; position: relative; display: block; font-style: normal; text-transform: uppercase; font-weight: 700; }
+.header-extras > ul > li > a:not(.btn), .header-extras > ul > li .topbar-dropdown > .title { font-family: "GeosansLight", sans-serif; font-size: 12px; position: relative; display: block; font-style: normal; text-transform: uppercase; font-weight: 700; }
 
 .header-extras > ul > li > a:not(.btn) i, .header-extras > ul > li .topbar-dropdown > .title i { font-size: 14px; position: relative; }
 
@@ -1187,7 +1183,7 @@ Page Menu
 
 .page-menu nav > ul { list-style: none; padding: 0; margin: 0; position: relative; }
 
-.page-menu nav > ul > li { -webkit-transition: all .3s ease; transition: all .3s ease; position: relative; border: 0; display: inline-block; float: none; padding: 0px 2px; font-family: "Poppins", sans-serif; }
+.page-menu nav > ul > li { -webkit-transition: all .3s ease; transition: all .3s ease; position: relative; border: 0; display: inline-block; float: none; padding: 0px 2px; font-family: "GeosansLight", sans-serif; }
 
 .page-menu nav > ul > li:last-child { margin-right: 0; }
 
@@ -1203,7 +1199,7 @@ Page Menu
 
 .page-menu nav > ul > li.dropdown:before { font-size: 12px; -webkit-transition: all .2s ease; transition: all .2s ease; content: "\e92e"; font-family: "inspiro-icons"; right: 10px; top: 1px; position: absolute; color: #3c4043; z-index: 2; }
 
-.page-menu nav > ul > li .dropdown-menu { position: absolute; text-align: left; list-style: none; font-family: "Poppins", sans-serif; padding: 14px 20px; width: auto; top: 50px; left: 0; margin: 0; border-radius: 4px; background-color: #fff; border: 1px solid #e4e6ef; min-width: 180px; box-shadow: 0 14px 20px rgba(0, 0, 0, 0.1); }
+.page-menu nav > ul > li .dropdown-menu { position: absolute; text-align: left; list-style: none; font-family: "GeosansLight", sans-serif; padding: 14px 20px; width: auto; top: 50px; left: 0; margin: 0; border-radius: 4px; background-color: #fff; border: 1px solid #e4e6ef; min-width: 180px; box-shadow: 0 14px 20px rgba(0, 0, 0, 0.1); }
 
 .page-menu nav > ul > li .dropdown-menu > li { width: 100%; }
 
@@ -1283,7 +1279,7 @@ body:not(.breakpoint-xs):not(.breakpoint-sm):not(.breakpoint-md) .page-menu nav 
   .page-menu.inverted nav > ul > li ul { background-color: #1e2022; }
   .page-menu.page-menu-active nav { display: block; } }
 
-.sidebar-menu { font-family: "Poppins", sans-serif; }
+.sidebar-menu { font-family: "GeosansLight", sans-serif; }
 
 .sidebar-menu label { display: block; text-transform: uppercase; font-size: 14px; font-weight: 700; letter-spacing: .5px; }
 
@@ -1316,7 +1312,7 @@ html { font-size: 88%; }
 
 @media all and (max-width: 768px) { html { font-size: 81.25%; } }
 
-body { font-size: 1rem; line-height: 1.65714286em; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; font-family: "Poppins", sans-serif; color: #3c4043; }
+body { font-size: 1rem; line-height: 1.65714286em; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; font-family: "GeosansLight", sans-serif; color: #3c4043; }
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 { font-family: inherit; color: #1e2022; margin: 0; letter-spacing: 0.5px; }
 
@@ -1355,7 +1351,7 @@ h6:not(:last-child), .h6:not(:last-child) { margin-bottom: 6px; }
 
 .display-4 { font-weight: 400; }
 
-p { font-size: 1rem; font-style: normal; font-weight: 400; text-transform: none; line-height: 1.7; letter-spacing: 0; color: #3c4043; font-family: "Poppins", sans-serif; }
+p { font-size: 1rem; font-style: normal; font-weight: 400; text-transform: none; line-height: 1.7; letter-spacing: 0; color: #3c4043; font-family: "GeosansLight", sans-serif; }
 
 ul.bullets { list-style: inside; }
 
@@ -1399,7 +1395,7 @@ a:not(.btn):not(.badge):not(.btn):not([href]):not([tabindex]) { color: #3c4043; 
 
 .inspiro-slider .slide .slide-captions { position: relative; text-align: left; }
 
-.inspiro-slider .slide .slide-captions h1 { font-size: 80px; font-weight: 700; line-height: 80px; margin-bottom: 30px; color: #fff; }
+.inspiro-slider .slide .slide-captions h1 { font-family:'BrittanyExample'; font-size: 80px; font-weight: 700; line-height: 80px; margin-bottom: 30px; color: #fff; }
 
 .inspiro-slider .slide .slide-captions h2 { font-size: 60px; font-weight: 700; line-height: 68px; margin-bottom: 30px; color: #fff; }
 
@@ -4058,7 +4054,7 @@ button.btn.btn-transparent, .btn:not(.close):not(.mfp-close).btn-transparent, a.
 
 button.btn.btn-transparent.btn-inverted, .btn:not(.close):not(.mfp-close).btn-transparent.btn-inverted, a.btn:not([href]):not([tabindex]).btn-transparent.btn-inverted { color: #fff; }
 
-button.btn.btn-primary, .btn:not(.close):not(.mfp-close).btn-primary, a.btn:not([href]):not([tabindex]).btn-primary { background-color: #2250fc; border-color: #2250fc; }
+button.btn.btn-primary, .btn:not(.close):not(.mfp-close).btn-primary, a.btn:not([href]):not([tabindex]).btn-primary { background-color: #e70075; border-color: #e70075; }
 
 button.btn.btn-primary:hover, button.btn.btn-primary:focus, button.btn.btn-primary:not(:disabled):not(.disabled):active, button.btn.btn-primary:not(:disabled):not(.disabled).active, .btn:not(.close):not(.mfp-close).btn-primary:hover, .btn:not(.close):not(.mfp-close).btn-primary:focus, .btn:not(.close):not(.mfp-close).btn-primary:not(:disabled):not(.disabled):active, .btn:not(.close):not(.mfp-close).btn-primary:not(:disabled):not(.disabled).active, a.btn:not([href]):not([tabindex]).btn-primary:hover, a.btn:not([href]):not([tabindex]).btn-primary:focus, a.btn:not([href]):not([tabindex]).btn-primary:not(:disabled):not(.disabled):active, a.btn:not([href]):not([tabindex]).btn-primary:not(:disabled):not(.disabled).active { background-color: #0333e8; border-color: #0333e8; color: #fff; }
 
@@ -4350,9 +4346,9 @@ a.btn:not([href]):not([tabindex]).btn-icon-holder.btn-lg i {
 
 .heading-text h1, .heading-text h2, .heading-text h3, .heading-text h4, .heading-text h5, .heading-text h6 { position: relative; margin-bottom: 30px; }
 
-.heading-text h1 { font-size: 70px; font-weight: 600; }
+.heading-text h1 { font-family:'BrittanyExample'; font-size: 70px; font-weight: 600; }
 
-.heading-text h2 { font-size: 60px; margin-bottom: 30px; letter-spacing: -.7px; line-height: 66px; }
+.heading-text h2 { font-family:'BrittanyExample'; font-size: 60px; margin-bottom: 30px; letter-spacing: -.7px; line-height: 66px; }
 
 .heading-text h3 { font-size: 60px; margin-bottom: 30px; letter-spacing: -.7px; line-height: 66px; }
 
