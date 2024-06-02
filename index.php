@@ -20,22 +20,30 @@
     <!-- Body Inner -->
     <div class="body-inner">
         <!-- Header -->
-        <header id="header" data-transparent="true" data-fullwidth="true" class="dark submenu-light">
+        <header id="header" data-transparent="false" data-fullwidth="true" class="light submenu-dark">
             <div class="header-inner">
                 <div class="container">
                     <!--Logo-->
-                    <div id="logo">
+                    <div id="logo" style="max-width:80px">
                         <a href="index.html">
-                            <span class="logo-default"><img src="assets/logo/logo_florencia_rouge.png" height="75px"></span>
-                            <span class="logo-dark"><img src="assets/logo/logo_florencia_blanc.png" height="75px"></span>
+                            <span class="logo-default"><img width="200px" src="assets/logo/logo_florencia_rouge.png"></span>
+                            <span class="logo-dark"><img width="200px" src="assets/logo/logo_florencia_blanc.png"></span>
                         </a>
                     </div>
                     <!--End: Logo-->
+                    <div class="header-extras">
+                        <ul>
+                            <li class="social-facebook"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                            <li class="social-tiktok"><a href="#"><img src="assets/logo/tiktok_icon.svg"></a></li>
+                            <li class="social-instagram"><a href="#"><i class="fab fa-instagram"></i></a></li>
+                            <li class="social-linkedin"><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                        </ul>
+                    </div>
                     <div id="mainMenu-trigger">
                         <a class="lines-button x"><span class="lines"></span></a>
                     </div>
                     <!--Navigation-->
-                    <div id="mainMenu">
+                    <div id="mainMenu" class="menu-center">
                         <div class="container">
                             <nav>
                                 <ul>
@@ -93,10 +101,13 @@
                         <p>La décoration d'un mariage nécessite une réelle étude et expertise pour composer au mieux avec les spécificités techniques des différents espaces. Des détails importants auxquels les futurs mariés ne pensent pas toujours…</p>
                         <p>Faire appel à Florencia, c'est vous assurer la tranquillité le jour-J et des souvenirs gravés à jamais !</p>
                         <p>Sur Lyon et la région Rhône-Alpes.</p>
+                        <a href="a-propos.php">
                         <button class="btn btn-roundeded btn-reveal">
-                            <span>L'agence</span>
-                            <i class="fa-solid fa-arrow-right"></i>
+                            
+                                <span>L'agence</span>
+                                <i class="icon-arrow-right"></i>
                         </button>
+                        </a>
                     </div>
                 </div>
             </div>

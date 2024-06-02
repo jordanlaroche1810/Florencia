@@ -4467,6 +4467,8 @@ ul.nav li.dropdown:hover > ul.dropdown-menu { display: block; }
 -------------------------------------------------------------------------*/
 .social-icons { line-height: 0; }
 
+.social-tiktok { margin-top: -2px }
+
 .social-icons ul { padding: 0; margin: 0; }
 
 .text-center.social-icons ul { display: inline-block; }

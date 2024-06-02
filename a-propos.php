@@ -39,9 +39,9 @@
                         <div class="container">
                             <nav>
                                 <ul>
-                                    <li><a href="index.html">Accueil</a></li>
+                                    <li><a href="index.php">Accueil</a></li>
                                     <li><a href="index.html">Prestation</a></li>
-                                    <li><a href="index.html">L'agence</a></li>
+                                    <li><a href="a-propos.php">L'agence</a></li>
                                     <li><a href="index.html">Galerie</a></li>
                                     <li><a href="index.html">Contact</a></li>
                                     <li><a href="index.html">Blog</a></li>
@@ -78,33 +78,25 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-lg-3">
-                        <div class="heading-text heading-section m-b-20">
-                            <h2>My Skills</h2>
-                        </div>Lorem ipsum dolor sit ametusp endisse consectetur fringilla luctus. Fusce id mi diam, non ornare orci. Pellentesque ipsum erat,
+                    <div class="col-lg-7">
                     </div>
-                    <div class="col-lg-9">
+                    <div class="col-lg-5">
                         <div class="m-t-60">
-                            <div class="p-progress-bar-container title-up small extra-small color">
-                                <div class="p-progress-bar" data-percent="100" data-delay="100" data-type="%">
-                                    <div class="progress-title">HTML5</div>
-                                </div>
+                            <div class="heading-text heading-section m-b-20">
+                                <h2>10 Faits sur moi</h2>
                             </div>
-                            <div class="p-progress-bar-container title-up small extra-small color">
-                                <div class="p-progress-bar" data-percent="94" data-delay="200" data-type="%">
-                                    <div class="progress-title">CSS3</div>
-                                </div>
-                            </div>
-                            <div class="p-progress-bar-container title-up small extra-small color">
-                                <div class="p-progress-bar" data-percent="78" data-delay="300" data-type="%">
-                                    <div class="progress-title">JQUERY</div>
-                                </div>
-                            </div>
-                            <div class="p-progress-bar-container title-up small extra-small color">
-                                <div class="p-progress-bar" data-percent="65" data-delay="400" data-type="%">
-                                    <div class="progress-title">MYSQL</div>
-                                </div>
-                            </div>
+                            <ul class="list-icon list-icon-arrow list-icon-colored">
+                                <li>Faucibus porta lacus fringilla vel</li>
+                                <li>Aenean sit amet erat nunc</li>
+                                <li>Eget porttitor lorem</li>
+                                <li>Lorem ipsum dolor sit amet</li>
+                                <li>Beautiful nature, and rare feathers!</li>
+                                <li>Integer molestie lorem at massa</li>
+                                <li>Facilisis in pretium nisl aliquet</li>
+                                <li>Beautiful nature, and rare feathers!</li>
+                                <li>Integer molestie lorem at massa</li>
+                                <li>Facilisis in pretium nisl aliquet</li>
+                            </ul>
                         </div>
                     </div>
                 </div>
