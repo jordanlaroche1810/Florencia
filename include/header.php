@@ -29,7 +29,7 @@
                         </a>
                     </div>
                     <!--End: Logo-->
-                    <div class="header-extras">
+                    <div class="header-extras d-md-none d-lg-block">
                         <ul>
                             <li class="social-facebook"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
                             <li class="social-tiktok"><a href="#"><img src="assets/logo/tiktok_icon.svg"></a></li>
