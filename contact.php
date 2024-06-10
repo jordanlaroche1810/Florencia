@@ -2,6 +2,13 @@
 <?php require_once "include/db.php"; ?>
     <section>
         <div class="container">
+            <div class="row  m-b-50">
+                <div class="col-lg-6">
+                    <div class="heading-text heading-section">
+                        <h2>Demande de contact</h2>
+                    </div>
+                </div>
+            </div>
             <div class="row">
                 <div class="col-lg-6">
                     <h3 class="text-uppercase">Un renseignement ? Une demande de devis en ligne ?</h3>
@@ -32,14 +39,37 @@
                                 <div class="form-group col-md-12">
                                     <label for="demande">Objet de votre demande</label>
                                     <select class="form-select" name="demande" id="demande">
-                                        <option>Question</option>
-                                        <option>Devis</option>
-                                        <option>Partenariat</option>
-                                        <option>Autres</option>
-                                        <option>5</option>
+                                        <option value="Question">Question</option>
+                                        <option value="Devis">Devis</option>
+                                        <option value="Partenariat">Partenariat</option>
+                                        <option value="Autres">Autres</option>
                                     </select>
                                 </div>
                             </div>
+
+                            <div id="additionalInputs" class="hidden">
+                                <div class="form-group">
+                                    <label for="dateMariage">Quel est la date du mariage ?</label>
+                                    <input type="date" class="form-control" id="dateMariage" name="dateMariage">
+                                </div>
+                                <div class="form-group">
+                                    <label for="lieu">Quel est le lieu de mariage ?</label>
+                                    <input type="text" class="form-control" id="lieu" name="lieu" placeholder="Entrez le lieu de votre mariage">
+                                    <div id="autocomplete-suggestions" class="autocomplete-suggestions"></div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="weddingPlanner">Faites-vous appel à un(e) wedding planner pour l'organisation de votre mariage ?</label>
+                                    <select class="form-select" name="weddingPlanner" id="weddingPlanner">
+                                        <option value="Non">Non</option>
+                                        <option value="Oui">Oui</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label for="nbInvite">Quel est le nombre d’invités (enfants compris) ?</label>
+                                    <input type="number" class="form-control" id="nbInvite" name="nbInvite" placeholder="Entrez votre nombre d'invités">
+                                </div>
+                            </div>
+
                             <div class="form-group">
                                 <label for="message">Message</label>
                                 <textarea type="text" name="message" rows="5" class="form-control" placeholder="Entrez votre message"></textarea>
@@ -56,4 +86,50 @@
             </div>
         </div>
     </section>
+    <script>
+        document.getElementById('demande').addEventListener('change', function() {
+            var additionalInputs = document.getElementById('additionalInputs');
+            if (this.value === 'Devis') {
+                additionalInputs.classList.remove('hidden');
+            } else {
+                additionalInputs.classList.add('hidden');
+            }
+        });
+
+        function debounce(func, wait) {
+            let timeout;
+            return function(...args) {
+                const context = this;
+                clearTimeout(timeout);
+                timeout = setTimeout(() => func.apply(context, args), wait);
+            };
+        }
+
+        function fetchSuggestions(query) {
+            fetch(`https://nominatim.openstreetmap.org/search?format=json&q=${query}`)
+                .then(response => response.json())
+                .then(data => {
+                    const suggestionsContainer = document.getElementById('autocomplete-suggestions');
+                    suggestionsContainer.innerHTML = '';
+                    data.forEach(place => {
+                        const suggestion = document.createElement('div');
+                        suggestion.classList.add('autocomplete-suggestion');
+                        suggestion.textContent = place.display_name;
+                        suggestion.addEventListener('click', function() {
+                            document.getElementById('lieu').value = place.display_name;
+                            suggestionsContainer.innerHTML = '';
+                        });
+                        suggestionsContainer.appendChild(suggestion);
+                    });
+                });
+        }
+
+        document.getElementById('lieu').addEventListener('input', debounce(function() {
+            const query = this.value;
+            if (query.length > 2) {
+                fetchSuggestions(query);
+            }
+        }, 300));
+
+    </script>
 <?php require_once "include/footer.php"; ?>

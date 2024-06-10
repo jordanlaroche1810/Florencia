@@ -1312,9 +1312,9 @@ html { font-size: 88%; }
 
 @media all and (max-width: 768px) { html { font-size: 81.25%; } }
 
-body { font-size: 1rem; line-height: 1.65714286em; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; font-family: "GeosansLight", sans-serif; color: #3c4043; }
+body { font-size: 1.3rem; line-height: 1.65714286em; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; font-family: "GeosansLight", sans-serif; color: #3c4043; }
 
-h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 { font-family: inherit; color: #1e2022; margin: 0; letter-spacing: 0.5px; }
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 { font-family: 'BrittanyExample'; color: #1e2022; margin: 0; letter-spacing: .3rem; }
 
 h1 small, h2 small, h3 small, h4 small, h5 small, h6 small, .h1 small, .h2 small, .h3 small, .h4 small, .h5 small, .h6 small { font-weight: 100; }
 
@@ -2940,6 +2940,8 @@ Helpers
 .rounded { overflow: hidden; }
 
 .hidden { display: none; }
+
+.show { display: block; }
 
 .visible { opacity: 1; }
 

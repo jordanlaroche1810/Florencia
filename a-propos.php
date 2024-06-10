@@ -28,8 +28,8 @@
                             <h2>10 Faits sur moi</h2>
                         </div>
                         <ul class="list-icon list-icon-arrow list-icon-colored">
-                            <li>Faucibus porta lacus fringilla vel</li>
-                            <li>Aenean sit amet erat nunc</li>
+                            <li>Je suis passionnée par la culture latine</li>
+                            <li>Mes fleurs préférées sont les Tulipes et les Gerbera</li>
                             <li>Eget porttitor lorem</li>
                             <li>Lorem ipsum dolor sit amet</li>
                             <li>Beautiful nature, and rare feathers!</li>

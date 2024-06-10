@@ -7,6 +7,10 @@
     $email = $_POST['email'];
     $telephone = $_POST['telephone'];
     $subject = $_POST['demande'];
+    $dateMariage = $_POST['dateMariage'];
+    $lieu = $_POST['lieu'];
+    $weddingPlanner = $_POST['weddingPlanner'];
+    $nbInvite = $_POST['nbInvite'];
     $message = $_POST['message'];
     $submitted_at = date('Y-m-d H:i:s', time());
 
@@ -16,10 +20,18 @@
     email,
     telephone,
     subject,
+    dateMariage,
+    lieu,
+    weddingPlanner,
+    nbInvite,
     message,
     submitted_at
     ) 
     VALUES (
+    ?,
+    ?,
+    ?,
+    ?,
     ?,
     ?,
     ?,
@@ -35,6 +47,10 @@
     $email,
     $telephone,
     $subject,
+    $dateMariage,
+    $lieu,
+    $weddingPlanner,
+    $nbInvite,
     $message,
     $submitted_at
     ]);
