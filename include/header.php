@@ -23,7 +23,7 @@
                 <div class="container">
                     <!--Logo-->
                     <div id="logo" style="max-width:80px">
-                        <a href="/">
+                        <a href="/florencia/">
                             <span class="logo-default"><img width="200px" src="assets/logo/logo_florencia_rouge.png"></span>
                             <span class="logo-dark"><img width="200px" src="assets/logo/logo_florencia_blanc.png"></span>
                         </a>

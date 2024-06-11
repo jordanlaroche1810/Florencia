@@ -1,4 +1,26 @@
- <!-- Footer -->
+        <section class="m-t-100">
+            <div class="container">
+                <div class="heading-text heading-section text-center">
+                    <div class="heading-text heading-section text-center">
+                        <h3>Les certifications de florencia Wedding Designer</h3>
+                    </div>
+                </div>
+                <ul class="grid grid-2-columns">
+                    <li style="max-width:50%">
+                        <a data-content="" title="" data-bs-placement="top" data-toggle="popover" data-container="body" data-bs-original-title="Popover title" data-trigger="hover">
+                            <img src="assets/images/ecmm.jpg" style="max-width:33%" alt="EFMM">
+                        </a>
+                    </li>
+                    <li style="max-width:50%">
+                        <a data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus." title="" data-bs-placement="top" data-toggle="popover" data-container="body" data-bs-original-title="Popover title" data-trigger="hover">
+                            <img src="assets/images/assocem.jpg" style="max-width:33%" alt="Assocem">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        
+        <!-- Footer -->
         <footer id="footer" class="inverted">
             <div class="footer-content">
                 <div class="container">
@@ -10,7 +32,6 @@
                                         <div class="widget-title">Liens utiles</div>
                                         <ul class="list">
                                             <li><a href="#">Mentions légales</a></li>
-                                            <li><a href="#">CGV</a></li>
                                             <li><a href="#">EFMM Assocem</a></li>
                                         </ul>
                                     </div>

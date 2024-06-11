@@ -39,35 +39,4 @@
         </div>
     </section>
     <!-- end: WELCOME -->
-    <!-- SERVICES -->
-    <section>
-        <div class="container">
-            <div class="heading-text heading-section text-center">
-                <h2>SERVICES</h2>
-            </div>
-            <div class="row">
-                <div class="col-lg-6" data-animate="fadeInUp" data-animate-delay="0">
-                    <div class="icon-box effect medium clean">
-                        <div class="icon">
-                            <a href="#"><img style="max-height:50px;" src="assets/images/ecmm.jpg"></a>
-                        </div>
-                        <h3>EFMM</h3>
-                        <p>Lorem ipsum dolor sit amet, consecte adipiscing elit. Suspendisse condimentum porttitor cursumus.
-                        </p>
-                    </div>
-                </div>
-                <div class="col-lg-6" data-animate="fadeInUp" data-animate-delay="200">
-                    <div class="icon-box effect medium clean">
-                        <div class="icon">
-                            <a href="#"><img style="max-height:50px;" src="assets/images/assocem.jpg"></a>
-                        </div>
-                        <h3>ASSOCEM</h3>
-                        <p>Lorem ipsum dolor sit amet, consecte adipiscing elit. Suspendisse condimentum porttitor cursumus.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- end: SERVICES -->
 <?php require_once "include/footer.php"; ?>
