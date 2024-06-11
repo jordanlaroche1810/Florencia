@@ -7,14 +7,10 @@
                 </div>
                 <ul class="grid grid-2-columns">
                     <li style="max-width:50%">
-                        <a data-content="" title="" data-bs-placement="top" data-toggle="popover" data-container="body" data-bs-original-title="Popover title" data-trigger="hover">
-                            <img src="assets/images/ecmm.jpg" style="max-width:33%" alt="EFMM">
-                        </a>
+                        <img src="assets/images/ecmm.jpg" style="max-width:33%" alt="EFMM">
                     </li>
                     <li style="max-width:50%">
-                        <a data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus." title="" data-bs-placement="top" data-toggle="popover" data-container="body" data-bs-original-title="Popover title" data-trigger="hover">
-                            <img src="assets/images/assocem.jpg" style="max-width:33%" alt="Assocem">
-                        </a>
+                        <img src="assets/images/assocem.jpg" style="max-width:33%" alt="Assocem">
                     </li>
                 </ul>
             </div>
@@ -31,8 +27,9 @@
                                     <div class="widget">
                                         <div class="widget-title">Liens utiles</div>
                                         <ul class="list">
-                                            <li><a href="#">Mentions légales</a></li>
-                                            <li><a href="#">EFMM Assocem</a></li>
+                                            <li><a href="mentions-legales">Mentions légales</a></li>
+                                            <li><a href="https://efmm.fr/">EFMM</a></li>
+                                            <li><a href="https://assocem.org/">Assocem</a></li>
                                         </ul>
                                     </div>
                                 </div>
