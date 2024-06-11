@@ -22,7 +22,7 @@
             </div>
             <div class="row m-b-100" data-animate="fadeInUp">
                 <div class="col-lg-6">
-                    <img class="img-fluid" src="images/other/responsive-1.jpg" alt="image présentation Florencia">
+                    <img class="img-fluid" src="assets/images/ode-to-oriental-beauty-decor.jpeg" alt="image présentation Florencia">
                 </div>
                 <div class="col-lg-6">
                     <h3>La formule</h3>
@@ -45,8 +45,8 @@
                         <li>Design floral : boutonnières, bouquets, décorations, etc.</li>
                     </ul>
                 </div>
-                <div class="col-lg-6">
-                    <img class="img-fluid" src="images/other/responsive-1.jpg" alt="image présentation Florencia">
+                <div class="col-lg-6" style="height:50%">
+                    <img class="img-fluid" src="assets/images/wedding-stationery-best-day.jpeg" alt="image présentation Florencia">
                 </div>
             </div>
         </div>

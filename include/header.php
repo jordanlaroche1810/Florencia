@@ -23,7 +23,7 @@
                 <div class="container">
                     <!--Logo-->
                     <div id="logo" style="max-width:80px">
-                        <a href="index.html">
+                        <a href="/">
                             <span class="logo-default"><img width="200px" src="assets/logo/logo_florencia_rouge.png"></span>
                             <span class="logo-dark"><img width="200px" src="assets/logo/logo_florencia_blanc.png"></span>
                         </a>
@@ -45,12 +45,12 @@
                         <div class="container">
                             <nav>
                                 <ul>
-                                    <li><a href="index.php">Accueil</a></li>
-                                    <li><a href="prestation.php">Prestation</a></li>
-                                    <li><a href="a-propos.php">L'agence</a></li>
-                                    <li><a href="galerie.php">Galerie</a></li>
-                                    <li><a href="contact.php">Contact</a></li>
-                                    <li><a href="blog.php">Blog</a></li>
+                                    <li><a href="index">Accueil</a></li>
+                                    <li><a href="prestation">Prestation</a></li>
+                                    <li><a href="a-propos">L'agence</a></li>
+                                    <li><a href="galerie">Galerie</a></li>
+                                    <li><a href="contact">Contact</a></li>
+                                    <li><a href="blog">Blog</a></li>
                                 </ul>
                             </nav>
                         </div>
@@ -90,14 +90,9 @@
                     }, 6000);
                 </script>
 
-                <div class="alert alert-danger solid alert-dismissible fade show">
-                    <div style="padding:15px;">
-                        <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" class="me-2">
-                            <polyline points="9 11 12 14 22 4"></polyline>
-                            <path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"></path>
-                        </svg>
-                        <strong>Erreur!</strong> <?= $_SESSION['flash']['error'] ?>
-                    </div>
+                <div role="alert" class="alert alert-danger alert-dismissible">
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"> </button>
+                    <?= $_SESSION['flash']['error'] ?>
                 </div>
             <?php
             }

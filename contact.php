@@ -83,6 +83,9 @@
                         </form>
                     </div>
                 </div>
+                <div class="col-lg-6">
+                    <img class="img-fluid" src="assets/images/disco-balls-flowers-wedding-design.jpeg" alt="image présentation Florencia">
+                </div>
             </div>
         </div>
     </section>

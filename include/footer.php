@@ -3,32 +3,20 @@
             <div class="footer-content">
                 <div class="container">
                     <div class="row">
-                        <div class="col-lg-5">
-                            <div class="widget">
-                                <div class="widget-title">Polo HTML5 Template</div>
-                                <p class="mb-5">Built with love in Fort Worth, Texas, USA<br> All rights reserved. Copyright © 2021. INSPIRO.</p>
-                                <a href="https://themeforest.net/item/polo-responsive-multipurpose-html5-template/13708923" class="btn btn-inverted" target="_blank">Purchase Now</a>
-                            </div>
-                        </div>
-                        <div class="col-lg-7">
+                        <div class="col-lg-12">
                             <div class="row">
-                                <div class="col-lg-3">
-                                </div>
-                                <div class="col-lg-3">
-                                </div>
-                                <div class="col-lg-3">
-                                </div>
-                                <div class="col-lg-3">
+                                <div class="col-lg-6">
                                     <div class="widget">
                                         <div class="widget-title">Liens utiles</div>
                                         <ul class="list">
                                             <li><a href="#">Mentions légales</a></li>
                                             <li><a href="#">CGV</a></li>
-                                            <li><a href="#">Contact</a></li>
-                                            <li><a href="#">Devis</a></li>
                                             <li><a href="#">EFMM Assocem</a></li>
                                         </ul>
                                     </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <img class="img-fluid" src="assets/logo/logo_florencia_blanc.png" alt="image présentation Florencia">
                                 </div>
                             </div>
                         </div>

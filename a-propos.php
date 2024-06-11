@@ -21,6 +21,7 @@
             </div>
             <div class="row">
                 <div class="col-lg-7">
+                    <img class="img-fluid" src="assets/images/wedding-floral-trends.jpeg" alt="image présentation Florencia">
                 </div>
                 <div class="col-lg-5">
                     <div class="m-t-60">

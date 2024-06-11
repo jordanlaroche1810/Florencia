@@ -17,7 +17,7 @@
             </div>
             <div class="row" data-animate="fadeInUp">
                 <div class="col-lg-6">
-                    <img class="img-fluid" src="images/other/responsive-1.jpg" alt="image présentation Florencia">
+                    <img class="img-fluid" src="assets/images/romantic-wedding-flowers.jpeg" alt="image présentation Florencia">
                 </div>
                 <div class="col-lg-6">
                     <h3>Découvrez Florencia</h3>
